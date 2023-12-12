@@ -1,5 +1,6 @@
 import hashlib
 
+
 def find_lowest_number(secret_key):
     number = 1
     while True:
@@ -15,3 +16,8 @@ def find_lowest_number(secret_key):
 
         # Increment the number for the next iteration
         number += 1
+
+
+ans = find_lowest_number("iwrupvqb")
+
+print(ans)
