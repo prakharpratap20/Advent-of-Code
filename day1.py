@@ -32,3 +32,4 @@ result1 = find_floor(instructions)
 result2 = find_basement(instructions)
 print(result1)
 print(result2)
+
